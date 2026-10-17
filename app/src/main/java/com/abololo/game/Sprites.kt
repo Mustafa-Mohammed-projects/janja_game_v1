@@ -562,7 +562,7 @@ object Sprites {
     }
 
     // ------------------------------------------------------------------ buildings (oblique 2.5D boxes)
-    /** Box whose footprint is [l..r] on screen with back edge backY and front edge frontY (ground level). */
+    /** Box whose footprint is l to r on screen with back edge backY and front edge frontY (ground level). */
     fun box(c: Canvas, l: Float, r0: Float, backY: Float, frontY: Float, h: Float, top: Int, front: Int, side: Int) {
         ga = 1f
         // ground shadow
